@@ -1,32 +1,30 @@
 # Power BI Custom Visuals
 
-مجموعة من الـ Custom Visuals الجاهزة لـ Power BI، تقدر تحمّلها وتستخدمها مباشرة في Power BI Desktop.
+A collection of ready-to-use custom visuals for Power BI. Download a `.pbiviz` file and import it straight into Power BI Desktop.
 
-A collection of ready-to-use Power BI custom visuals (`.pbiviz`).
+## Available Visuals
 
-## الـ Visuals المتاحة | Available Visuals
+| Visual | Description | Download |
+|--------|-------------|----------|
+| [productCarousel](visuals/productCarousel) | Interactive product carousel with images, category, and sales | [productCarousel.pbiviz](visuals/productCarousel/productCarousel.pbiviz) |
 
-| Visual | الوصف | التحميل |
-|--------|-------|---------|
-| [productCarousel](visuals/productCarousel) | عرض المنتجات في Carousel تفاعلي | [تحميل .pbiviz](visuals/productCarousel/productCarousel.pbiviz) |
+## Installation
 
-## طريقة التثبيت | Installation
+1. Open the visual's folder and click the `.pbiviz` file.
+2. Click **Download raw file**.
+3. Open Power BI Desktop.
+4. In the Visualizations pane, click `⋯` and choose **Import a visual from a file**.
+5. Select the downloaded file. The visual appears in the Visualizations pane.
 
-1. افتح فولدر الـ Visual وادخل على ملف `.pbiviz`
-2. اضغط **Download raw file**
-3. افتح Power BI Desktop
-4. من لوحة Visualizations اضغط `⋯` ثم **Import a visual from a file**
-5. اختار الملف، وهيظهر الـ Visual في اللوحة
+## Notes
 
-## ملاحظات
+- Visuals are imported in Power BI Desktop and keep working in the Power BI Service once the report is published.
+- Found a problem or have a suggestion? Open an [issue](../../issues).
 
-- الـ Visuals بتتستورد في Power BI Desktop وبتشتغل بعد كده في Power BI Service مع الـ Report.
-- لو واجهت مشكلة افتح [Issue](../../issues).
+## License
 
-## الترخيص | License
+Released under the [MIT License](LICENSE).
 
-MIT License — شوف ملف [LICENSE](LICENSE).
-
-## المؤلف | Author
+## Author
 
 **Maged Magdy** — Braintells

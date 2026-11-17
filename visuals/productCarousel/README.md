@@ -1,31 +1,49 @@
 # productCarousel
 
-Visual لعرض المنتجات في شكل Carousel تفاعلي داخل Power BI.
+A Power BI custom visual that displays products in an interactive carousel, with product images, categories, and sales figures.
 
 ![Preview](screenshot.png)
 
-## التحميل
+## Download
 
 [productCarousel.pbiviz](productCarousel.pbiviz)
 
-## التثبيت
+## Installation
 
-Visualizations ← ⋯ ← **Import a visual from a file** ← اختار ملف `productCarousel.pbiviz`.
+1. Download `productCarousel.pbiviz`.
+2. In Power BI Desktop, open the Visualizations pane and click `⋯`.
+3. Choose **Import a visual from a file** and select the file.
+4. Click the new visual icon to add it to your report.
 
-## الـ Fields
+## Fields
 
-| Field | النوع | الوصف |
-|-------|-------|-------|
-| Product Name | Text | اسم المنتج |
-| Image URL | Text | رابط صورة المنتج |
-| Value | Number | القيمة (سعر / مبيعات) |
+| Field | Type | Description |
+|-------|------|-------------|
+| Product Name | Text | Name of the product shown on each carousel card |
+| Product Image URL | Text | Public URL of the product image |
+| Brand | Text | Brand of the product |
+| Category | Text | Product category |
+| Sales amount | Number | Sales value for the product (e.g. net sales) |
+| Quantity sold | Number | Number of units sold |
 
-> عدّل الجدول حسب الـ Fields الفعلية في الـ Visual.
+### Example mapping
 
-## الإعدادات (Format pane)
+| Field | Column |
+|-------|--------|
+| Product Name | `ProductName` |
+| Product Image URL | `ProductImageURL` |
+| Category | `Category` |
+| Sales amount | `NetSalesEGP` |
 
-- (اكتب هنا الخصائص الموجودة فعلًا)
+## Tips
 
-## الإصدار
+- Image URLs must be publicly reachable over HTTPS, otherwise images will not load.
+- Set the **Data category** of the image URL column to **Image URL** in Power BI if you also use it in other visuals.
+
+## Version
 
 v1.0.0
+
+## Author
+
+**Maged Magdy** — Braintells
